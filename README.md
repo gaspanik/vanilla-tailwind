@@ -43,6 +43,8 @@
 2.  **JavaScriptでアイコンを初期化**
     [`src/main.js`](src/main.js) で `lucide` から `createIcons` と使用したいアイコンをインポートし、`createIcons` 関数を実行して、対応する `data-lucide` 属性を持つ要素をSVGアイコンに置き換えます。
 
+    https://lucide.dev/guide/packages/lucide#with-esmodules
+
     ````javascript
     // filepath: src/main.js
     import './style.css'
