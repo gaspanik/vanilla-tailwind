@@ -1,4 +1,4 @@
-# vanila-tailwind
+# vanilla-tailwind
 
 このプロジェクトは、Vite、Tailwind CSS、Lucideアイコンを使用したシンプルなフロントエンド環境です。
 
