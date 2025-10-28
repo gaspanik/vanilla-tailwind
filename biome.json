@@ -1,34 +1,50 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.3.0/schema.json",
-  "vcs": {
-    "enabled": true,
-    "clientKind": "git",
-    "useIgnoreFile": true
-  },
-  "files": {
-    "ignoreUnknown": true
-  },
+  "$schema": "https://biomejs.dev/schemas/2.3.1/schema.json",
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+  "files": { "ignoreUnknown": true },
   "formatter": {
     "enabled": true,
+    "formatWithErrors": false,
     "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 120,
+    "attributePosition": "auto",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "expand": "auto",
     "useEditorconfig": true
   },
   "linter": {
     "enabled": true,
-    "rules": {
-      "recommended": true
-    }
-  },
-  "html": {
-    "formatter": { "enabled": true, "indentScriptAndStyle": false },
-    "experimentalFullSupportEnabled": true
+    "rules": { "recommended": true },
+    "includes": ["**", "!dist"]
   },
   "javascript": {
-    "formatter": { "quoteStyle": "single", "semicolons": "asNeeded" }
+    "formatter": {
+      "enabled": true,
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingCommas": "all",
+      "semicolons": "asNeeded",
+      "arrowParentheses": "always",
+      "bracketSameLine": false,
+      "quoteStyle": "single",
+      "attributePosition": "auto",
+      "bracketSpacing": true
+    }
   },
   "css": {
-    "formatter": { "quoteStyle": "double" },
-    "parser": { "tailwindDirectives": true }
+    "parser": { "tailwindDirectives": true },
+    "formatter": { "enabled": true, "quoteStyle": "double" }
+  },
+  "html": {
+    "experimentalFullSupportEnabled": true,
+    "formatter": {
+      "enabled": true,
+      "indentScriptAndStyle": false,
+      "selfCloseVoidElements": "always"
+    }
   },
   "assist": {
     "enabled": true,
