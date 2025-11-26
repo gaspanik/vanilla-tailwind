@@ -1,8 +1,3 @@
-import './style.css'
-import { createIcons, Home } from 'lucide'
+import { createIcons, SquareDashed } from 'lucide'
 
-createIcons({
-  icons: {
-    Home,
-  },
-})
+createIcons({ icons: { SquareDashed } })
