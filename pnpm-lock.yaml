@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       lucide:
-        specifier: ^0.555.0
-        version: 0.555.0
+        specifier: ^0.556.0
+        version: 0.556.0
     devDependencies:
       '@biomejs/biome':
         specifier: 2.3.8
@@ -31,8 +31,8 @@ importers:
         specifier: ^4.1.17
         version: 4.1.17
       vite:
-        specifier: ^7.2.6
-        version: 7.2.6(jiti@2.6.1)(lightningcss@1.30.2)
+        specifier: ^7.2.7
+        version: 7.2.7(jiti@2.6.1)(lightningcss@1.30.2)
 
 packages:
 
@@ -599,8 +599,8 @@ packages:
     resolution: {integrity: sha512-utfs7Pr5uJyyvDETitgsaqSyjCb2qNRAtuqUeWIAKztsOYdcACf2KtARYXg2pSvhkt+9NfoaNY7fxjl6nuMjIQ==}
     engines: {node: '>= 12.0.0'}
 
-  lucide@0.555.0:
-    resolution: {integrity: sha512-R7BkO2/XRpMADcMIRn1UOZOvirxr2Z6s/R82k0EUK71ZXXrlRbvkVwTAIf+9DRApeyH+zNMIGfiUdmrOhoAygQ==}
+  lucide@0.556.0:
+    resolution: {integrity: sha512-sJ6NrZ+Q2Fv0Uardg7nsgjoKZ3r70wp3n30fvfbxMt5Fi1fQy1deS99z1g3xQpObok+LT1LjjcCyojUKGIHo7A==}
 
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
@@ -662,8 +662,8 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
-  vite@7.2.6:
-    resolution: {integrity: sha512-tI2l/nFHC5rLh7+5+o7QjKjSR04ivXDF4jcgV0f/bTQ+OJiITy5S6gaynVsEM+7RqzufMnVbIon6Sr5x1SDYaQ==}
+  vite@7.2.7:
+    resolution: {integrity: sha512-ITcnkFeR3+fI8P1wMgItjGrR10170d8auB4EpMLPqmx6uxElH3a/hHGQabSHKdqd4FXWO1nFIp9rRn7JQ34ACQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1099,7 +1099,7 @@ snapshots:
       lightningcss-win32-arm64-msvc: 1.30.2
       lightningcss-win32-x64-msvc: 1.30.2
 
-  lucide@0.555.0: {}
+  lucide@0.556.0: {}
 
   magic-string@0.30.21:
     dependencies:
@@ -1170,7 +1170,7 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  vite@7.2.6(jiti@2.6.1)(lightningcss@1.30.2):
+  vite@7.2.7(jiti@2.6.1)(lightningcss@1.30.2):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
