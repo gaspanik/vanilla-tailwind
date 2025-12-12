@@ -1,13 +1,15 @@
+**Archived and moved**: [vite-vanilla-tailwind](https://github.com/gaspanik/vite-vanilla-tailwind) に移動しました。
+
 # vanilla-tailwind
 
 このプロジェクトは、Vite、Tailwind CSS、Lucideアイコンを使用したシンプルなフロントエンド環境です。
 
 ## ✨ 技術スタック
 
+-   **リンター/フォーマッター**: [Biome](https://biomejs.dev/)
 -   **ビルドツール**: [Vite](https://vitejs.dev/)
 -   **CSSフレームワーク**: [Tailwind CSS](https://tailwindcss.com/)
 -   **アイコン**: [Lucide](https://lucide.dev/)
--   **リンター/フォーマッター**: [Biome](https://biomejs.dev/)
 
 ## 🚀 利用可能なスクリプト
 
